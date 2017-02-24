@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Wild Circus</title>
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+	<!--Header avec menu et cover-->
+	<header>
+		<nav class="navbar navbar-default navbar-fixed-top menu">
+			<div class="container-fluid top-menu">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html"><img src="assets/logo.png" alt="Wild Circus"></a>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar-collapse">
+					<ul class="nav navbar-nav navbar-right tab">
+						<li><a class="js-scrollTo" href="#tour">Tour<span class="sr-only">(current)</span></a></li>
+						<li><a class="js-scrollTo" href="#Part2">Wriggling ear clown</a></li>
+						<li><a class="js-scrollTo" href="#Part3">An indomitable beast</a></li>
+						<li><a class="js-scrollTo" href="#Part4">The crazy pastry chef</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="parallax-window" data-parallax="scroll" data-image-src="assets/cover.png" naturalHeight="700"></div> <!--Composant Parallax Jquery-->
+	</header>
+	<h1>Welcome to Wild Circus!</h1>
+	<!-- Tournée Wild Circus -->
+	<div id="tour" class="dark-container">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3">
+					<h2>Tour</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-sm-4 col-xs-12 poster">
+					<div class="poster-container">
+						<img src="assets/poster_1.png" alt="poster Lyon">
+						<div class="overlay">
+							<div class="infos">
+								<p class="place">Lyon</p>
+								<p class="date">12/10/2016</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-4 col-xs-12 poster">
+					<div class="poster-container">
+						<img src="assets/poster_2.png" alt="poster Marseille">
+						<div class="overlay">
+							<div class="infos">
+								<p class="place">Marseille</p>
+								<p class="date">01/23/2017</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-4 col-xs-12 poster">
+					<div class="poster-container">
+						<img src="assets/poster_3.png" alt="poster Paris">
+						<div class="overlay">
+							<div class="infos">
+								<p class="place">Paris</p>
+								<p class="date">04/07/2017</p>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Partie sur les performances qui seront présentées pour les prochaines dates du spectacle-->
+	<div class="container-fluid">
+		<div class="row section">
+			<div class="col-sm-6 col-sm-offset-3 text-center">
+				<h2>Let the show begin!</h2>
+			</div>
+		</div>
+		<section class="row" id="Part2">
+			<h3>Wriggling ear clown</h3>
+			<div class="container container-modification">
+				<div class="col-sm-4 custom-center">
+					<img src="assets/ear.png" alt="ear">
+				</div>
+				<div class="col-sm-4 custom-center">
+					<p>For the three next shows, our fabulous Wriggling ear clown will show you his incredible talent. You might be wondering « what does this all mean ? »… In fact, his talent is based on the incredible ability to move his ears as easily as you can move your hand ! Doubters will call it magic, while scientists name this ability as « Facial gymnastics ». Come and discover the incredible focus needed to perform these amazing tricks .</p>
+				</div>
+				<div class="col-sm-4 custom-center">
+					<ul>
+						<li>Up and down moves</li>
+						<li>Left and right moves</li>
+						<li>Side to side juggling</li>
+						<li>Drawing custom shapes by moving ears</li>
+					</ul>
+				</div>
+			</div>	
+		</section>
+		<section class="row dark-container" id="Part3">
+			<h3>An indomitable beast</h3>
+			<div class="container container-modification">
+				<div class="col-sm-4 custom-center">
+					<p>Discover our indomitable beast duo show, starring Django, a huge westie dog, escorted by his clown mistress. Django has been trained from his earliest days. If you think that you have already seen all about dog training, this show his for you, you will not believe what you see… Have you ever talked to a dog ? Oh, wait, dogs can’t speak ? Well, django can ! </p>
+				</div>
+				<div class="col-sm-4 custom-center">
+					<ul>
+						<li>Reverse alphabet reciting in less than 5 seconds</li>
+						<li>Hold a political debate with François Hollande about last 10 years french economy</li>
+						<li>Peel 5 potatoes in 5 minutes</li>
+					</ul>
+				</div>
+				<div class="col-sm-4 custom-center">
+					<img src="assets/dog.png" alt="dog">
+				</div>
+			</div>
+		</section>	
+		<section class="row" id="Part4">
+			<h3>The crazy pastry chef</h3>
+			<div class="container container-modification">
+				<div class="col-sm-4 custom-center">
+					<img src="assets/pastry.png" alt="pastry">
+				</div>
+				<div class="col-sm-4 custom-center">
+					<p>Our crazy pastry chef is a sugar lover. He spends his days cooking pies, cakes, cupcakes, and about everything which can be made with sugar. Meanwhile, you have to be careful. Our clown is mad. Don’t bother him unless you want to be one of his moving and living targets for his upcoming cake battle.</p>
+				</div>
+				<div class="col-sm-4 custom-center">
+					<ul>
+						<li>Juggling with cupcakes</li>
+						<li>Making a huge 5 meters cake in 60 seconds</li>
+						<li>Making cupcakes with his mouth</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</div>
+	<!--Pied de page, footer -->
+	<footer>
+		<h2 id="contact">Contact</h2>
+		<ul class="description">
+			<li>Lauriane Collet</li>
+			<li><a href="mailto:lauriane.collet1@gmail.com">lauriane.collet1@gmail.com</a></li>
+			<li>Candidate at the Wild Code School</li>
+			<img src="assets/foot.png" src="foot">
+		</ul>
+	</footer>
+	<!--Les liens des scripts que j'appelle-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="scripts/bootstrap.min.js"></script>
+	<script src="scripts/parallax.min.js"></script>
+	<script src="scripts/script.js"></script>
+</body>
+</html>
